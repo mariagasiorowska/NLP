@@ -6,7 +6,7 @@ pip install -r requirements.txt
 RUN
 
 Run the baseline model with:
-python baseline_roberta2.py
+python baseline.py
 
 OUTPUT
 
