@@ -1,4 +1,6 @@
-datasets
+datasets < 3.0
 transformers
 seqeval
 numpy
+torch
+accelerate>=1.1.0
