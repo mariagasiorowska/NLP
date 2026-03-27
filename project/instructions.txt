@@ -1,0 +1,19 @@
+SETUP
+
+Install required packages:
+pip install -r requirements.txt
+
+RUN
+
+Run the baseline model with:
+python baseline_roberta2.py
+
+OUTPUT
+
+The script will:
+- Train a NER model on the CoNLL-2003 dataset
+- Evaluate performance (precision, recall, F1)
+- Generate predictions in IOB2 format
+
+The output file is:
+predictions.iob2
