@@ -1,4 +1,5 @@
-MODEL_CHECKPOINT = "roberta-base"
+MODEL_CHECKPOINT = "distilbert-base-uncased"
+
 OUTPUT_DIR = "./results"
 
 TRAIN_BATCH_SIZE = 16
