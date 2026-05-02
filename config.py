@@ -1,0 +1,9 @@
+MODEL_CHECKPOINT = "distilbert-base-uncased"
+
+OUTPUT_DIR = "./results"
+
+TRAIN_BATCH_SIZE = 16
+EVAL_BATCH_SIZE = 16
+LEARNING_RATE = 2e-5
+NUM_EPOCHS = 3
+WEIGHT_DECAY = 0.01
